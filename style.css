@@ -1,0 +1,81 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.heading
+{
+    font-size:40px;
+    font-weight: bold;
+    display: flex;
+
+justify-content: center;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 29%;
+}
+.moveicon{
+    height: 80px;
+}
+.movebutton{
+    background-color: transparent;
+    border: 5px solid white;
+   margin-right: 5px;
+    padding:30px;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition-duration: 0.5s;
+}
+.movebutton:hover{
+    transform: scale(1.2);
+}
+.result
+{
+    font-size: 25px;
+    font-weight: bold;
+    position:absolute;
+    left: 46%;
+    top: 55%;
+    color: green;
+}
+.score
+{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+}
+.resetscorebutton{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 90%;
+    left: 32%;
+    
+}
+.resetscorebutton:hover{
+    transform: scale(1.1);
+    background-color: gray;
+    color: white;
+}
+.moves
+{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    font-size: 30px;
+    
+}
