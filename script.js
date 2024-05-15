@@ -53,7 +53,7 @@ function playgame(playermove) {
         }
         else if (computer === 'scissors') {
             result = 'YOU WIN';
-            score,win++;
+            score.win++;
         }
     }
     localStorage.setItem('score',JSON.stringify(score));
